@@ -1,0 +1,22 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: rgb(80, 135, 163)
+}
+
+hr {
+  border: bisque .5px solid;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+.business-list {
+  /* list-style-type: none;
+  margin-left: 0%;
+  margin-right: auto; 
+  display: table;
+  text-align: left;  */
+  list-style-type: none;
+  padding-left: 0;
+}
