@@ -114,3 +114,10 @@ const businesses = [
 export const getBusiness = () => {
   return businesses
 }
+
+// export const newYorkBusiness = () => {
+//   return getBusiness().filter(business => {
+//     business.addressStateCode === "NY"
+//   })
+// }
+

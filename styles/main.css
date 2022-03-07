@@ -9,9 +9,20 @@ hr {
 
 h2 {
   font-weight: bolder;
+  text-decoration: underline;
 }
 
 .business-list {
+  /* list-style-type: none;
+  margin-left: 0%;
+  margin-right: auto; 
+  display: table;
+  text-align: left;  */
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.newYork-list {
   /* list-style-type: none;
   margin-left: 0%;
   margin-right: auto; 
