@@ -115,9 +115,10 @@ export const getBusiness = () => {
   return businesses
 }
 
-// export const newYorkBusiness = () => {
-//   return getBusiness().filter(business => {
-//     business.addressStateCode === "NY"
-//   })
-// }
-
+export const purchaseAgent = getBusiness().map(biz => (
+  {
+    "fullName": `${biz.purchasingAgent.nameFirst} ${biz.purchasingAgent.nameLast}`,
+    "company": biz.companyName,
+    "phoneNumber": biz.phoneWork
+  })
+)

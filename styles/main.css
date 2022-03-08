@@ -3,13 +3,13 @@ body {
   background-color: rgb(80, 135, 163)
 }
 
-hr {
-  border: bisque .5px solid;
-}
-
 h2 {
   font-weight: bolder;
   text-decoration: underline;
+}
+
+hr {
+  border: solid .3px bisque;
 }
 
 .business-list {
@@ -28,6 +28,11 @@ h2 {
   margin-right: auto; 
   display: table;
   text-align: left;  */
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.agents {
   list-style-type: none;
   padding-left: 0;
 }
